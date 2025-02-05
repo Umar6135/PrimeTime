@@ -1,0 +1,18 @@
+.theme-btn{
+  background-color: $primary-color;
+  padding: 12px 36px 13px 36px;
+  font-size: 19px;
+  font-weight: 400;
+  color: $text-color;
+  border-radius: 24px;
+  display: inline-block;
+  
+  transition: all 0.35s;
+
+  &:hover {
+    transform: translateY(-0.25em);
+    box-shadow: 0 0 0.5em 0em $primary-color;
+    border-color: $primary-color;
+
+  }
+}
